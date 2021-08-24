@@ -1,0 +1,196 @@
+/* == COLORS == */
+/* ===== GLOBAL ==== */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+body .button-style {
+  border: none;
+  border-radius: 32px;
+  width: 18rem;
+  padding: 1rem;
+  color: #fff;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.1em black;
+}
+body h2 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+body h3 {
+  font-size: 2.4rem;
+}
+body p {
+  font-size: 1.8rem;
+  color: #9fabb2;
+  opacity: 0.5;
+  line-height: 1.5;
+}
+body a {
+  text-decoration: none;
+  color: #4c545d;
+  font-size: 1.6rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ==== HEADER ==== */
+header {
+  text-align: center;
+}
+header div.header-container {
+  width: min(65rem, 90%);
+  margin: auto;
+}
+header div.header-container article {
+  margin: 3rem 0;
+}
+header div.header-container article h1 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+header div.header-container div.header-download button.button-style:first-child {
+  background-color: #26baa4;
+  margin-right: 2rem;
+}
+header div.header-container div.header-download button.button-style:nth-child(2) {
+  background: #6173ff;
+}
+
+/* === MAIN == */
+main section.benefits {
+  width: 100%;
+  margin-top: 12rem;
+}
+main section.benefits article {
+  width: min(65rem, 90%);
+  text-align: center;
+  margin: auto;
+}
+main section.benefits div.product-benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  width: 80%;
+}
+main section.benefits div.product-benefits img {
+  width: 60%;
+}
+main section.benefits div.product-benefits div.all-benefits {
+  width: 35%;
+}
+main section.benefits div.product-benefits div.all-benefits div.benefit {
+  margin-bottom: 4rem;
+}
+main section.clipboard {
+  width: min(65rem, 90%);
+  text-align: center;
+  margin: auto;
+}
+main section.clipboard article {
+  margin: 10rem 0;
+}
+main section.clipboard img {
+  width: 100%;
+}
+main section.workflow {
+  text-align: center;
+}
+main section.workflow article {
+  margin-bottom: 7rem;
+}
+main section.workflow div.tools {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+main section.workflow div.tools div.tool {
+  width: 31%;
+}
+main section.workflow div.tools div.tool img {
+  height: 4rem;
+}
+main section.workflow div.supporters {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section.available {
+  text-align: center;
+  margin: 15rem 0 10rem;
+}
+main section.available article {
+  width: min(65rem, 90%);
+  margin: 0 auto 5rem;
+}
+main section.available div.section-download button.button-style:first-child {
+  background-color: #26baa4;
+  margin-right: 2rem;
+}
+main section.available div.section-download button.button-style:nth-child(2) {
+  background: #6173ff;
+}
+
+/* === FOOTER == */
+footer {
+  background-color: rgba(159, 171, 178, 0.1);
+}
+footer div.footer-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 5rem 2rem;
+}
+footer div.footer-container figure img {
+  width: 30%;
+}
+footer div.footer-container div.footer-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer div.footer-container div.footer-links a {
+  display: block;
+  margin-bottom: 2rem;
+  width: 33%;
+}
+footer div.footer-container div.social-medias a:first-child {
+  margin: 0;
+}
+footer div.footer-container div.social-medias a {
+  margin-left: 1.5rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 425px) {
+  /* MAIN */
+  main section.workflow div.supporters {
+    flex-wrap: wrap;
+  }
+  main section.workflow div.supporters img {
+    width: 51%;
+    margin: auto;
+    margin-bottom: 7rem;
+  }
+}
+
+/*# sourceMappingURL=convertedIndex.css.map */
