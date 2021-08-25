@@ -181,13 +181,106 @@ footer div.footer-container div.social-medias a {
 }
 
 /* RESPONSIVE */
-@media (max-width: 425px) {
+@media (max-width: 499px) {
+  header {
+    margin-top: 15rem;
+  }
+  header div.header-container div.header-download button.button-style {
+    display: block;
+    margin: 0 auto;
+    padding: 1.2rem 0;
+    width: 80%;
+  }
+  header div.header-container div.header-download button.button-style:first-child {
+    margin: 0 auto 2rem;
+  }
+
   /* MAIN */
+  main {
+    width: 90%;
+    margin: auto;
+  }
+  main section.benefits div.product-benefits {
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+  }
+  main section.benefits div.product-benefits img {
+    width: 100%;
+  }
+  main section.benefits div.product-benefits div.all-benefits {
+    width: 100%;
+    margin: 4rem auto 0;
+  }
+  main section.clipboard {
+    margin-bottom: 8rem;
+  }
+  main section.workflow div.tools {
+    flex-wrap: wrap;
+  }
+  main section.workflow div.tools div.tool {
+    width: 100%;
+  }
+  main section.workflow div.tools div.tool article h3 {
+    margin: 3rem 0;
+  }
   main section.workflow div.supporters {
     flex-wrap: wrap;
   }
   main section.workflow div.supporters img {
     width: 51%;
+    margin: auto;
+    margin-bottom: 7rem;
+  }
+  main section.available div.section-download button.button-style {
+    display: block;
+    margin: 0 auto;
+    padding: 1.2rem 0;
+    width: 80%;
+  }
+  main section.available div.section-download button.button-style:first-child {
+    margin: 0 auto 2rem;
+  }
+
+  /* FOOTER */
+  footer div.footer-container {
+    padding: 5rem 0;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  footer div.footer-container figure {
+    width: 100%;
+  }
+  footer div.footer-container figure img {
+    display: block;
+    width: 12.5rem;
+    margin: auto;
+  }
+  footer div.footer-container div.footer-links {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  footer div.footer-container div.footer-links a {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 51%;
+    margin: 0 auto 3rem;
+  }
+  footer div.footer-container div.social-medias {
+    margin: auto;
+  }
+  footer div.footer-container div.social-medias a {
+    margin-left: 3.5rem;
+  }
+}
+@media (max-width: 900px) and (min-width: 500px) {
+  main section.workflow div.supporters {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main section.workflow div.supporters img {
+    width: 34%;
     margin: auto;
     margin-bottom: 7rem;
   }
